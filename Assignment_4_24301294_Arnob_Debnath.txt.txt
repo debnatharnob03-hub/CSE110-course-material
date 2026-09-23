@@ -1,0 +1,175 @@
+//Task 1)a)
+public class lab4{
+  public static void main(String[]args){
+    int AR=24;
+    while(AR>=-6){//condition;
+      System.out.print(AR+",");//output;
+      
+      AR-=6;
+      
+      
+    }
+  }
+}
+
+//Task 1)b)
+public class lab4{
+  public static void main(String[]args){
+    int AR=-10;
+    while(AR<=20){//Condition;
+      System.out.print(AR+",");//Output;
+      
+      AR+=5;
+      
+      
+    }
+  }
+}
+
+//Task 2
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    int Ao=sc.nextInt();//number of terms;
+    int DE=0;//sum of total number;
+    for(int AR=0;AR<Ao;AR++){
+    int DB=sc.nextInt();
+    DE+=DB;//increase of summeation;
+    }
+    double DP=DE/Ao;//average of total number;
+    
+     System.out.println("The sum of"+Ao+"is"+DE);
+     System.out.println("The average is"+DP);
+    
+  }
+}
+
+//Task 3
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    while(true){//condition;
+      int AR=sc.nextInt();//user input;
+      if (AR>0){
+      System.out.println("Square="+AR*AR);
+    }
+      else{
+      }
+    }
+  }
+}
+
+//Task 4
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input like 6 ;
+   for(int DEE=1;DEE<AR;DEE++){//condition to get divisors;
+     if (AR%DEE==0){//for example 6%1/2/3/4etc;
+       System.out.println(DEE);
+     }
+     else{
+     }
+   }
+  }
+}
+
+//Task 5
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input like 6 ;
+   int NON_NEGETIVE_NUMBERS=0;//initialization of non negetive numbers;
+   int NEGETIVE_NUMBERS=0;//initialization of negetive number;
+   for(int DEE=0;DEE<AR;DEE++){
+     int DEEP=sc.nextInt();//input the numbers;
+     if(DEEP>=0){//non negetive condi.;
+      
+       NON_NEGETIVE_NUMBERS+=1;//count1
+        }
+     else{//negetive condi;
+    
+      NEGETIVE_NUMBERS+=1;//count2
+       }
+   System.out.println(NON_NEGETIVE_NUMBERS+"Non-Negative number");
+   System.out.println(NEGETIVE_NUMBERS+"Negative number");    
+   }
+  } 
+}
+
+//Task 6
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input like 5;
+   int SUM_OF_TOTAL_ODD_NUM=0;//Sum of total odds;
+   for(int DEE=1;DEE<=AR;DEE++){//condi;
+     int EP=DEE*2-1;
+     SUM_OF_TOTAL_ODD_NUM+=EP;
+    System.out.println("Odd numbers are"+EP);
+   }
+  System.out.println("The Sum of odd Natural Numbers up to"+AR+"terms is:"+SUM_OF_TOTAL_ODD_NUM); 
+    
+      
+   
+  } 
+}
+
+//Task 7
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input ;
+   int SUM_OF_TOTAL=0;//sum of numbers:
+   for(int DEE=1;DEE<=10;DEE++){//for condition;
+   int DE=sc.nextInt();
+   SUM_OF_TOTAL+=DE;
+   System.out.println("Sum="+SUM_OF_TOTAL);
+   }
+  }
+}
+
+//Task 8
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input ;//input like 50;
+   
+   for(int DEE=0;DEE<=AR;DEE++){//Condition for loop;
+     if(DEE%5==0 && DEE%3!=0){//if condition for divisor;
+       System.out.println(DEE);
+     }
+     else{
+     }
+   }
+  }
+}
+
+//Task 9
+import java.util.Scanner;
+public class lab4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+   int AR=sc.nextInt();//user input ;//input like 123456;
+   int DE=0;//total count of digits;
+   while(AR!=0){//loop condition;
+     DE+=1;//increment of total count:
+     AR/=10;//digits;
+   }
+   System.out.println("Total digits="+DE);
+     
+   }
+  }
+
+
+
+
+
+

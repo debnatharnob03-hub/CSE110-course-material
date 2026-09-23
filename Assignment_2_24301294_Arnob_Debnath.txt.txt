@@ -1,0 +1,498 @@
+//Task 1)a)
+class lab2{
+  public static void main(String[]args){
+    int hungry=21;
+    System.out.println(hungry);
+    
+  }
+}
+
+
+//Task 1)b)
+class lab2{
+  public static void main(String[]args){
+    int 2AB=21;
+    System.out.println(2AB);
+    
+  }
+}
+
+//Task 1)c)
+class lab2{
+  public static void main(String[]args){
+    int 321.12=21;
+    System.out.println(321.12);
+    
+  }
+}
+
+
+//Task 1)d)
+class lab2{
+  public static void main(String[]args){
+    int MOBILE=21;
+    System.out.println(MOBILE);
+    
+  }
+}
+
+//Task 1)e)
+class lab2{
+  public static void main(String[]args){
+    String "Ans"="21";
+    System.out.println("Ans");
+    
+  }
+}
+
+
+//Task 1)f)
+class lab2{
+  public static void main(String[]args){
+    String $30="21";
+    System.out.println($30);
+    
+  }
+}
+
+
+//Task 1)g)
+class lab2{
+  public static void main(String[]args){
+    double No=21;
+    System.out.println(No);
+    
+  }
+}
+
+
+//Task 1)h)
+class lab2{
+  public static void main(String[]args){
+    double student-id=21;
+    System.out.println(student-id);
+    
+  }
+}
+
+
+//Task 1)i)
+class lab2{
+  public static void main(String[]args){
+    double A+B=21;
+    System.out.println(A+B);
+    
+  }
+}
+
+
+//Task 1)j)
+class lab2{
+  public static void main(String[]args){
+    int 'X'=21;
+    System.out.println('X');
+    
+  }
+}
+
+//Task 1)k)
+
+class lab2{
+  public static void main(String[]args){
+    Float return =21f;
+    System.out.println(return);
+    
+  }
+}
+
+
+//Task 2.1)
+class lab2{
+  public static void main(String[]args){
+    int arnob= 007;
+    System.out.println(arnob);
+ 
+  }
+}
+
+
+//Task 2.2)
+class lab2{
+  public static void main(String[]args){
+    int arnob= 007;
+    int deep=10;
+    System.out.println(arnob+deep);
+ 
+  }
+}
+
+
+//Task 2.3)
+class lab2{
+  public static void main(String[]args){
+    int arnob= 007;
+    int deep=10;
+    System.out.println(arnob*deep);
+ 
+  }
+}
+
+class lab2{
+  public static void main(String[]args){
+    int arnob= 70;
+    int deep=10;
+    System.out.println(arnob/deep);
+ 
+  }
+}
+
+
+//Task 2.4)
+class lab2{
+  public static void main(String[]args){
+    double arnob= 700;
+    double deep=10;
+    System.out.println(arnob+deep);
+ 
+  }
+}
+
+
+class lab2{
+  public static void main(String[]args){
+    double arnob= 7;
+    double deep=10;
+    System.out.println(arnob*deep);
+ 
+  }
+}
+
+
+class lab2{
+  public static void main(String[]args){
+    double arnob= 700;
+    double deep=10;
+    System.out.println(arnob/deep);
+ 
+  }
+}
+
+
+//Task 2.5)
+class lab2{
+  public static void main(String[]args){
+    double arnob= 700;
+    int deep=10;
+    System.out.println(arnob+deep);
+ 
+  }
+}
+
+
+class lab2{
+  public static void main(String[]args){
+    double arnob= 700;
+    int deep=10;
+    System.out.println(arnob*deep);
+ 
+  }
+}
+
+
+class lab2{
+  public static void main(String[]args){
+    double arnob= 700;
+    int deep=10;
+    System.out.println(arnob/deep);
+ 
+  }
+}
+
+
+//Task 2.6)
+class lab2{
+  public static void main(String[]args){
+    String arnob= "700";
+    
+    System.out.println(arnob);
+ 
+  }
+}
+
+class lab2{
+  public static void main(String[]args){
+    String arnob= "700";
+    String deep= "100";
+    System.out.println(arnob+deep);
+  
+  }
+}
+
+class lab2{
+  public static void main(String[]args){
+    int arnob= 700;
+    String deep= "100";
+    System.out.println(arnob+deep);
+  
+  }
+}
+
+class lab2{
+  public static void main(String[]args){
+    String arnob= "700";
+    int deep= 100;
+    System.out.println(arnob+deep);
+  
+  }
+}
+
+
+//Task 3)
+ import java.lang.Math; 
+  class lab2{
+  public static void main(String[]args){
+  int radi=4;
+   double Circumfence=2*Math.PI*radi; 
+    System.out.println(Circumfence);
+  }
+  }
+
+
+//Task 4)
+class lab2{
+  public static void main(String[]args){
+    int arnob=4856442;
+    double deep=arnob%100;
+    System.out.println(deep);
+  }
+  }
+
+
+//Task 5)
+class lab2{
+  public static void main(String[]args){
+    int arnob=1000;
+    double deep=arnob*0.0254;
+    System.out.println(deep);
+  }
+  } 
+
+
+//Task 6)a)
+
+class lab2{
+  public static void main(String[]args){
+   int arnob=900;
+   int deep=500;
+   int draaro=arnob+deep;
+    arnob=draaro-arnob;
+    deep=draaro-deep;
+    System.out.println("arnob="+arnob);
+    System.out.println("deep="+deep);
+     
+   
+                  
+  }
+  } 
+
+//Task 6)b)
+class lab2{
+  public static void main(String[]args){
+   int arnob=900;
+   int deep=500;
+   int temp;
+     temp=arnob;
+     arnob=deep;
+     deep=temp;
+     System.out.println("deep="+deep);
+     System.out.println("arnob="+arnob);
+     
+   
+                  
+  }
+  } 
+
+
+//Task 7)
+class lab2{
+  public static void main(String[]args){
+  int given_minutes_numbers=3456789;
+  double CONVERTED_YEARS=(given_minutes_numbers)/(60*24*30*12);//6.57684
+  int CONVERTED_YEARS_02=(given_minutes_numbers)%(60*24*365);//303189
+  int CONVERTED_DAYS=CONVERTED_YEARS_02/(24*60);
+  
+  
+  
+ System.out.println("YEARS="+CONVERTED_YEARS);
+ System.out.println("DAYS="+CONVERTED_DAYS);
+  
+  
+   
+                  
+  }
+  }
+
+
+//Task 8)
+class lab2{
+  public static void main(String[]args){
+    int a=2;
+    int b=5;
+    int c=8;
+    int first=(c-a)/3;
+    int second=2*b*first;
+    int d=second+7;
+    System.out.println(d);
+  
+  
+  }
+}
+
+
+//Task 9)
+class lab2{
+  public static void main(String[]args){
+    int N1=10;
+    int Ar1=N1*1;
+    int Ar2=N1*2;
+    int Ar3=N1*3;
+    int Ar4=N1*4;
+    int Ar5=N1*5;
+    int Ar6=N1*6;
+    int Ar7=N1*7;
+    int Ar8=N1*8;
+    int Ar9=N1*9;
+    int Ar10=N1*10;
+    System.out.println(N1+"x1="+Ar1);
+    System.out.println(N1+"x2="+Ar2);
+    System.out.println(N1+"x3="+Ar3);
+    System.out.println(N1+"x4="+Ar4);
+    System.out.println(N1+"x5="+Ar5);
+    System.out.println(N1+"x6="+Ar6);
+    System.out.println(N1+"x7="+Ar7);
+    System.out.println(N1+"x8="+Ar8);
+    System.out.println(N1+"x9="+Ar9);
+    System.out.println(N1+"x10="+Ar10);
+                        
+  
+  }
+}
+>>
+
+
+//Task 10)
+class lab2{
+  public static void main(String[]args){
+   int N=100;
+   int a=3;
+   int L=a+99;
+   int ad=N/2;
+   int S=ad*(a+L);
+    System.out.println("Sum of 100 positive numbers="+S);
+                        
+  
+  }
+}
+>>Sum of 100 positive numbers=5250
+
+//Task 11)
+import java.lang.Math;
+class lab2{
+  public static void main(String[]args){
+    double AC=4;//adjacent side of cone A,opposite side of cone B;
+    double BC=3;//adjacent side of cone B,opposite side of cone A;
+    double m=Math.pow(AC,2);
+    double n=Math.pow(BC,2);
+    double o=m+n;
+    double AB=Math.sqrt(o);//Hypotenous;
+    double SinA=BC/AB;
+    double SinB=AC/AB;
+    double CosA=AC/AB;
+    double CosB=BC/AB;
+    System.out.println("AB="+AB);
+    System.out.println("SinA="+SinA);
+    System.out.println("SinB="+SinB);
+    System.out.println("CosA="+CosA);
+    System.out.println("CosB="+CosB);
+    
+                        
+  
+  }
+}
+  
+
+
+//Task 12)
+class lab2{
+  public static void main(String[]args){
+   int MY_Student_ID=24301294;
+   int Last_2_Digits=MY_Student_ID%100;
+   int last_digit=Last_2_Digits%10;
+   int last_2nd_digit=Last_2_Digits/10;
+   System.out.println("Last digit="+last_digit);
+   System.out.println("2nd Last digit="+last_2nd_digit);
+    
+                        
+  
+  }
+}
+
+
+ 
+
+//Task 13)
+class lab2{
+  public static void main(String[]args){
+   double MY_Student_ID=24302500;
+   double last_4_digits=MY_Student_ID%10000;
+   System.out.println("last4digits="+last_4_digits);
+   int hours=5;
+   int mins=56;
+   int sec=23;
+   double hours_into_sec=hours*60*60;
+   double mins_into_sec=mins*60;
+   double total_time_in_sec=hours_into_sec + mins_into_sec + sec;
+   double total_time_hours01= total_time_in_sec / 3600;
+   System.out.println("totaltimeinsec="+total_time_in_sec);
+   System.out.println("totaltimeinhrs="+total_time_hours01);
+   double my_distance_in_km=last_4_digits/1000;
+   double my_distance_in_miles=last_4_digits/1609;
+   double velocity_in_km=my_distance_in_km/total_time_hours01;
+   double velocity_in_miles=my_distance_in_miles/total_time_hours01;
+   System.out.println("veloinkm="+velocity_in_km);
+   System.out.println("veloinmi="+velocity_in_miles);
+  
+   
+    
+                        
+  
+  }
+}
+
+
+
+//Task 14)
+import java.lang.Math;
+class lab2{
+  public static void main(String[]args){
+    double a=8;
+    double b=3;//base
+    double c=a/2;//height;
+    double m=Math.pow(c,2);
+    double n=Math.pow(b,2);
+    double o=m+n;
+    double d=Math.sqrt(o);
+    System.out.println("Hypotenous="+d);
+    double Circumfence=6*d;
+    double p=Math.sqrt(3);
+    double q=3*p/2;
+    double s=d*d;
+    double r=q*s;
+    double Area_of_Hexagon=r;
+    System.out.println("circumfence="+Circumfence);
+    System.out.println("Area="+Area_of_Hexagon);
+    
+  }
+}
+
+
