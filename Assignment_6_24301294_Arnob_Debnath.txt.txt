@@ -1,0 +1,49 @@
+
+//Task 2
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  String AR=sc.nextLine();//Input
+  int DE=AR.length()/2;//Half of string length
+  int EP=AR.length();//String length
+  Boolean WTH=true;//Boolean Condtion
+  for (int DB=0;DB<=DE;DB++){//increment in string
+    if (AR.charAt(DB)!=AR.charAt(EP-DB-1)){//checking condition of palindome string
+      WTH=false;//unmatch condtion
+      break;
+    }
+        }
+if(WTH){
+  System.out.println("True");
+}
+else{
+  System.out.println("False");
+}
+  }
+}
+
+//Task 3
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  String Sentence=sc.nextLine();//String Sentence
+  char Character= '_' ;//Split character
+  String Words="";//Words in sentences
+  for(int AR=0;AR<Sentence.length();AR++){//increment
+    if(Sentence.charAt(AR)!=Character){//Condition Check
+      Words +=Sentence.charAt(AR);//Word check
+    }
+    else{
+      System.out.println(Words);
+      Words="";
+  }
+  }
+  System.out.println(Words);
+}
+}
+
+//

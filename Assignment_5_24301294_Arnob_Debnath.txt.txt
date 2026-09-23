@@ -1,0 +1,112 @@
+
+
+
+
+//Task 2
+import java.util.Scanner;
+public class lab5{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  System.out.println("The value of N: ");//show of taking input;
+  int N= sc.nextInt();//input take;
+  int AR=0;//initial;
+  for(int DE=1;DE<=N;DE++){//outer loop;
+    for(int DB=1;DB<=DE;DB++){//inner loop;
+     AR-=DB;//Calculation;
+    }
+  }
+  System.out.println("The value of y: "+ AR);
+  }
+}
+
+//Task 3
+import java.util.Scanner;
+public class lab5{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  while(true){
+   System.out.println("Enter Number");
+   int NUMBER=sc.nextInt();//TAKING NUMBER;
+    int DIVISOR=0;//INITIAL DIVISOR;
+    if(NUMBER%2==1 || NUMBER<0){//Condition for not taking negetive integer;
+     break;
+    }
+    for(int AR=1;AR<=NUMBER;AR++){
+      if(NUMBER%AR==0){
+       DIVISOR++;
+     
+      }
+    }
+    System.out.println(NUMBER + " has " + DIVISOR+ " divisors");
+  }
+  }
+}
+
+//Task 5
+import java.util.Scanner;
+public class lab5{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  int LENGTH=sc.nextInt();//LENGTH INPUT;
+  int WIDE=sc.nextInt();//WIDE INPUT;
+  for(int AR=1;AR<=WIDE;AR++){//OUTER LOOP;
+    for(int DE=1; DE<=LENGTH;DE++){//INNER LOOP;
+      System.out.print(DE);
+    }
+    System.out.println();
+    
+  }
+  }
+}
+
+//Task 7
+import java.util.Scanner;
+public class lab5{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  
+     int HEIGHT = sc.nextInt();//INPUT HEIGHT
+        for (int AR = 1; AR <=HEIGHT; AR++) {
+         for (int DE = 0; DE <HEIGHT - AR; DE++) {
+            System.out.print(" ");
+            }
+
+            for (int DP = 1; DP <= AR; DP++) {
+                System.out.print(DP+ " ");
+            }
+
+   
+            System.out.println();
+        }
+    }
+} 
+
+//Task 8
+import java.util.Scanner;
+public class lab5{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  int AR= sc.nextInt();//Input of Starting 
+  int DE =sc.nextInt();//Input of Ending
+   for (int D= AR; D <=DE; D++) {//Outer Loop
+       int E=0;
+       int F= 0;
+       int G=0;
+       int temp = D;//Storing D value
+         while (temp > 0) {
+               F++;
+               temp /= 10;
+           }
+          int K= D;
+         while (K>0) {
+             G= K%10;
+             E+= Math.pow(G,F);
+            K/=10;
+          }
+            if (E==D) {
+               System.out.println(E);
+            }
+        }
+    }
+}
+

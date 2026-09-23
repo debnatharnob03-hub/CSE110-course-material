@@ -1,0 +1,137 @@
+//Task 1)a)
+
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  int AR= sc.nextInt();//input of numbers
+  int[] DP=new int[AR];//converting input number as array elements;
+  for(int DB=0;DB<DP.length;DB++){//loop for taking array elements
+    System.out.println("Enter a Number");
+    DP[DB]=sc.nextInt();//input elements
+  }
+  System.out.println("Elements of arrays");
+  for (int DB=0;DB<DP.length;DB++){//loop for printing elements with index
+    System.out.println(DB+" "+ DP[DB]);
+                       }
+}
+}
+
+ b)import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  int AR=sc.nextInt();//input of numbers
+  int[] DB= new int[AR];//converting input number as array elements;
+  for(int DP=0;DP<DB.length;DP++){//loop for taking array elements
+    System.out.println("Enter a number:");
+    DB[DP]=sc.nextInt();//input elements
+  }
+  System.out.println("Element of arrays: ");
+  for(int DP=0;DP<DB.length;DP++){//loop for printing elements with index
+    System.out.println(DP + " "+DB[DP]);
+  }
+  int NUMBER=sc.nextInt();//input of another element
+  int[] AD=new int[AR+1];//converting input as array elements
+  for(int DP=0;DP<DB.length;DP++){
+    AD[DP]=DB[DP];
+  }
+  AD[AR]=NUMBER;
+  System.out.println("After resisting the array: ");
+  for(int DP=0;DP<AD.length;DP++){
+    System.out.println(AD[DP]+" ");
+  }
+  }
+}
+
+
+//Task 2
+
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Before removing duplicates:");
+  int AR[]={10,11,-2,-2,7,10,3};//input numbers
+  System.out.println("After replacing duplicates with 0:");
+  for(int DB=0; DB<AR.length;DB++){//1st loop for checking elements
+    for(int DP=DB+1;DP<AR.length;DP++){//2nd loop for checking duplicate elements
+      if(AR[DB]==AR[DP]){//duplicate condition
+        AR[DP]=0;//0 for duplicate elements
+      }
+    }
+  }
+  for(int AD=0;AD<AR.length;AD++){//loop for printing new elements
+  System.out.print(AR[AD]+ " ");
+  }
+  }
+}
+
+//Task 4
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  int AR= sc.nextInt();//number of elements
+  int[]DB=new int[AR];//convertation into array
+  for(int AD=0;AD<DB.length;AD++){//loop for taking elements
+    DB[AD]=sc.nextInt();
+  }
+  System.out.print("original array:");
+  for(int AD=0;AD<DB.length;AD++){
+    System.out.println(DB[AD]+ " ");
+  }
+  System.out.println();
+  int[]DA=new int[AR];
+  for(int AD=0;AD<DB.length/2;AD++){
+    if(DB[AD]>0){
+      DA[AD]=1;
+    }
+    else if(DB[AD]<0){
+      DA[AD]=0;
+    }
+    else{
+      DA[AD]=DB[AD];
+    }
+  }
+   System.out.print("modifying later:");
+   for(int AD=0;AD<DB.length;AD++){
+     System.out.print(DA[AD]+"");
+   }
+   System.out.println();
+  }
+}
+
+//Task 5
+
+import java.util.Scanner;
+import java.lang.String;
+public class lab6{
+  public static void main(String[]args){
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the length N:");
+  int AR= sc.nextInt();//input numbers of element;
+  int []DB= new int[AR];//convertaion of elements;
+  for(int DP=0;DP<DB.length;DP++){//loop for entering elements
+    System.out.println("Enter A Number");
+     DB[DP] = sc.nextInt();
+  }
+  int AD=sc.nextInt();
+  boolean flag = false;//boolean
+  for(int DP=0;DP<DB.length;DP++){//loop for checking elements
+    if(DB[DP]==AD){
+      flag= true;
+      System.out.println(AD+" "+ "is at index"+ " " +DP);
+      break;
+    }
+  }
+  if(flag==false){
+    System.out.println("Element not found");
+  }
+  }
+}
+
